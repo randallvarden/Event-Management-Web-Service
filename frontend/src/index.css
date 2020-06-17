@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea
+{
+    width: 100%;
+    display: block;
+}
+
+.form-container label{
+    margin-bottom: 0.5rem;
+}
+
+.form-container{
+    margin-bottom: 1rem;
+}
+
+.form-buttons button,
+.btn{
+    background: cyan;
+    font:inherit;
+    border: 1px solid cyan;
+    border-radius:  3px;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 2px 5px black;
+    color: white;
+    cursor: pointer;
+}
+
+.form-buttons button:hover,
+.form-buttons button:active,
+.btn:hover,
+.btnactive{
+    background: darkcyan;
+    border-color: cyan;
+}
+
+
